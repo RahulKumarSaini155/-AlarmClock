@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+
+    <script src="https://kit.fontawesome.com/9c31560b15.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <h1> <i class="fa-solid fa-clock"></i> Alarm Clock</h1>
+            <p>Set Alarm (12-Hour Clock)</p>
+        </div>
+
+        <div id="clock-container">
+            <div class="time">
+                <span id="time-display">03:05:49 PM</span>
+            </div>
+
+            <div class="alarm">
+                <div>
+                    <input class="setA-time" type="number" min="1" max="12" placeholder="HH"> :
+                    <input class="setA-time" type="number" min="0" max="59" placeholder="MM"> :
+                    <input class="setA-time" type="number" min="0" max="59" placeholder="SS">
+                    &nbsp;
+                    <input class="setA-time" type="text" placeholder="AM">
+
+                </div>
+                <button id="setA-btn" type="button">Set Alarm</button>
+            </div>
+
+            <div class="alarm-list">
+                <div>Alarms</div>
+                <ul>
+                    <!-- <li>
+                        <span>04:05:49 PM</span>
+                        <button class="d-btn" type="button">Delete</button>
+                    </li>                     -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

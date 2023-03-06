@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-top: -30px;
+    margin-bottom: 40px;
+    /* background-color: rgba(130, 21, 214, 0.874); */
+    border-radius: 0.4rem;
+    padding: 1% 10%;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.4);
+    color: white;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 3rem;
+}
+
+.title i{
+    font-size: 2.2rem;
+}
+
+/* clock-container */
+#clock-container{
+    width: 400px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 4rem;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: brown;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 10px;
+}
+
+/* time */
+
+.time{
+    font-size: 2.5rem;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+
+/* set alarm */
+
+.alarm{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.alarm input{
+    padding: 1px;
+    width: 2.8rem;
+    height: 2rem;
+    /* font-size: 1.5rem; */
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.502);
+    border: none;
+    outline: none;
+}
+
+
+/* set alarm button */
+
+#setA-btn{
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    /* background-color: blueviolet; */
+    background-color: rgb(121, 153, 69);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+
+
+/* alarm-list */
+
+.alarm-list{
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid black; */
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.alarm-list div{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.alarm-list ul{
+    list-style: none;
+    overflow: auto;
+}
+
+.alarm-list ul::-webkit-scrollbar{
+    display: none;
+}
+
+.alarm-list ul li{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    margin: 10px 0px;
+    padding: 6px 0px;
+}
+
+.alarm-list ul li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.d-btn{
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: blueviolet;
+    /* background-color: rgb(184, 18, 18); */
+    color: white;
+    border: none;
+    outline: none;
+}
+
+
